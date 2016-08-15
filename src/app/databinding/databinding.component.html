@@ -1,0 +1,32 @@
+<hr>
+<h1>String Interpolation</h1>
+<p>
+  {{stringInterpolation}} | {{numberInterpolation}}
+</p>
+<hr>
+<h1>Property Binding</h1>
+<input style="width: 250px;" type ="text" [value]="stringInterpolationForPropertyBinding" >
+<p [ngClass]="{redBorder: onTest()}">ngClass example Directive Property</p>
+<p [ngStyle]="{'font-weight': 'bold', 'color': 'blue'}">ngStyle example Directive Property</p>
+<hr>
+<h1>Custom Property Binding</h1>
+<app-property-binding [result]='13'></app-property-binding>
+<hr>
+<h1>Event Binding</h1>
+<app-event-binding (clicked)="onBlitzen($event)"></app-event-binding>
+<hr>
+<h1>Two-Way Binding</h1>
+<app-two-way-binding></app-two-way-binding>
+
+
+
+
+
+
+
+
+
+
+
+
+
