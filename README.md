@@ -8,9 +8,8 @@ Examples of AngularJS 2 Components, Templates and Databinding [non-compiled]
 ###3. Select a local directory for your project and unzip the repository to the root directory
 ###4. Navigate to the root directory with your command line tool and run npm install
 ![npm_install](https://cloud.githubusercontent.com/assets/4675174/17707942/b0141bec-63b0-11e6-9f67-53dcbb522cd8.png)
-###5. Run ng serve and open htt://localhost:4200 on your local browser
+###5. Run ng serve from the same location and open htt://localhost:4200 on your local browser
 ![ng_serve](https://cloud.githubusercontent.com/assets/4675174/17707955/b8c06020-63b0-11e6-8df1-44f142bca7bf.png)
-
 ###You will now have a compiled project hosted on a local development server
-
-
+The compiled files will be located in the newly created "dist" directory.<br>
+The contents of the "dist" directory can be directly deployed to a web server.
