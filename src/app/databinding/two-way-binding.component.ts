@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 
 @Component({
-  moduleId: module.id,
   selector: 'app-two-way-binding',
   template: `
     <input type="text" [(ngModel)]="person.name" />

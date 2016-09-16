@@ -14,7 +14,6 @@ import {
 } from '@angular/core';
 
 @Component({
-  moduleId: module.id,
   selector: 'app-lifecycle',
   template: `
 	<ng-content></ng-content>
